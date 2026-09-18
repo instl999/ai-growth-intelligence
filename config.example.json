@@ -1,0 +1,97 @@
+{
+  "timeWindowHours": 24,
+  "sections": {
+    "github": {
+      "label": "GitHub 精选",
+      "discoveryWindowHours": 168,
+      "highlightWindowHours": 24,
+      "minItems": 5,
+      "maxItems": 10
+    },
+    "ai": {
+      "label": "AI 情报",
+      "discoveryWindowHours": 24,
+      "highlightWindowHours": 24,
+      "minItems": 5,
+      "maxItems": 10
+    },
+    "skill": {
+      "label": "Skill 精选",
+      "discoveryWindowHours": 168,
+      "highlightWindowHours": 24,
+      "minItems": 5,
+      "maxItems": 10
+    },
+    "general": {
+      "label": "综合情报",
+      "discoveryWindowHours": 24,
+      "highlightWindowHours": 24,
+      "minItems": 5,
+      "maxItems": 10
+    }
+  },
+  "recommendationHistoryDays": 30,
+  "schedule": {
+    "scanAt": [
+      "08:00",
+      "20:00"
+    ],
+    "dailySummaryAt": "08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "delivery": "active_openclaw_conversation",
+  "language": "zh-CN",
+  "article": {
+    "style": "article",
+    "_note": "article writes the briefing as a roundup with a 速览 index and multi-paragraph stories; brief is the original one-bold-label-per-line layout. See references/article-layout.md."
+  },
+  "requireOfficialSource": true,
+  "requireTwoSourcesForMaterialClaims": true,
+  "minimumValueScore": 60,
+  "includeGitHubWatch": true,
+  "includeSkillWatch": true,
+  "githubAutoForkAndOrganize": {
+    "name": "github自动fork并整理",
+    "enabled": false,
+    "riskAcknowledged": false,
+    "dryRun": true,
+    "scan": {
+      "sinceDays": 7,
+      "minStars": 100,
+      "maxCandidates": 20,
+      "maxForksPerRun": 3,
+      "maxQueries": 4,
+      "perPage": 30,
+      "keywords": [
+        "ai agents",
+        "mcp",
+        "openclaw",
+        "codex"
+      ],
+      "excludedRepositories": [],
+      "excludedOwners": []
+    },
+    "topics": {
+      "maxTopics": 20
+    },
+    "schedule": {
+      "enabled": false,
+      "apply": false,
+      "timezone": "Asia/Shanghai",
+      "cron": "0 9 * * *"
+    }
+  },
+  "wechatDraftBox": {
+    "name": "微信公众号草稿箱",
+    "enabled": false,
+    "dryRun": true,
+    "author": "",
+    "sourceUrl": "",
+    "linkStyle": "text",
+    "openComment": false,
+    "onlyFansCanComment": false,
+    "coverWordmark": "AI GROWTH INTELLIGENCE",
+    "footer": "",
+    "_note": "WECHAT_APP_ID and WECHAT_APP_SECRET are read from the host environment. This file must never contain them."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ai-growth-intelligence",
+  "version": "0.11.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "test": "node scripts/run-tests.js",
+    "diagnose": "node src/cli/index.js capabilities --client generic",
+    "github:contract": "node src/cli/index.js github-automation",
+    "github:scan": "node src/cli/index.js github-scan",
+    "github:run": "node src/cli/index.js github-run",
+    "self-check": "node scripts/self-check.js"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 成长情报"
+  short_description: "筛选高价值情报，并可在明确授权后自动 Fork 整理 GitHub 项目。"
+  default_prompt: "Use $ai-growth-intelligence to research recent high-value intelligence and proactively send one dense verified Chinese briefing through the host message tool. Keep github自动fork并整理 disabled unless the operator explicitly asks for it; before any live GitHub write, show the risk and token-permission guide and require explicit acknowledgement."

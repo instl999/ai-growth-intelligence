@@ -1,5 +1,15 @@
 # AI Growth Intelligence
 
+<!-- repository-catalog:start -->
+**Category: Learning, research and knowledge** · [Repositories in this category](https://github.com/instl999?tab=repositories&q=topic%3Aknowledge-tools)
+
+An OpenClaw skill that creates sourced Chinese briefings on AI, GitHub projects and agent skills.
+
+Related projects: [elder-lifestory](https://github.com/instl999/elder-lifestory) · [exam-scribe](https://github.com/instl999/exam-scribe)
+
+[简体中文](README.zh-CN.md)
+<!-- repository-catalog:end -->
+
 `ai-growth-intelligence` is a private OpenClaw Skill that turns verified public information into one directly readable Simplified Chinese intelligence briefing.
 
 ## What it delivers
